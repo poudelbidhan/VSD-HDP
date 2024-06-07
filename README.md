@@ -1,7 +1,7 @@
 # VSD-Hardware Design Program
 ## Week 0: Tool Installation 
 ### System Information
-1. Linux: Ubuntu 22.04
+1. OS: Ubuntu 22.04
 2. RAM: 8 GB
 3. Storage: 100 GB
 4. Processor: 4 Core
