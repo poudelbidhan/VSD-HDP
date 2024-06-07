@@ -22,4 +22,30 @@ sudo apt-get install build-essential clang bison flex \
 make config-gcc
 make 
 sudo make install
+```
+![Screenshot from 2024-06-06 20-50-06](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/cdb64531-ef3f-4d21-876b-dc78a66a2c56)
+
+### iVerilog
+
+```
+sudo apt install iverilog
+iverilog -v
+
+```
+
+
+
+![Screenshot from 2024-06-06 21-19-24](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/fe6a9b25-1ce5-4b62-a794-a58204a7db8f)
+
+
+
+### GTKWave
+```
+sudo apt install gtkwave
+gtkwave
+```
+![Screenshot from 2024-06-06 21-31-09](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/3591863c-a35f-4237-ba05-f542f9ca4217)
+
+
+
 
