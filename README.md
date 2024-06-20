@@ -144,5 +144,12 @@ Synthesis preserving Hierarchy
 
 ![Screenshot from 2024-06-15 07-19-51](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/e5fc1996-d072-4974-b8f3-aed6b54319e0)
 
-### Various Flip-Flop Designs
+
+
+
+## Day 3: Combinational and Sequential Optimization 
+
+### Combinational Logic Optimization
+
+
 
