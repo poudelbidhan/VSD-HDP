@@ -235,9 +235,33 @@ lab4 : dff_const4.v
 
 Simulation Result 
 
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/77e3b51b-766f-4978-a914-29388356c900)
 
 
 Synthesis Result
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/15562af8-5d83-467a-a7dc-abbeb5227577)
 
 
+lab 5: dff_const5.v
+Simulation Result: 
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/b064f121-f2bd-4966-8f08-46c85baeda81)
+
+
+Synthesis Result: 
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/1f427922-13c4-45ab-928a-6615e97478a6)
+
+
+
+lab 6: Counter_opt.v
+
+Simulation Result
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/24b89303-711d-44d9-bd61-2ab61c176c1b)
+
+
+Synthesis Result
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/28f0fbf4-d28a-4e1d-81fb-ad27733c20b2)
+
+
+lab 7. Counter_opt2.v
+Synthesis Result
 
