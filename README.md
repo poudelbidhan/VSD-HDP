@@ -263,5 +263,12 @@ Synthesis Result
 
 
 lab 7. Counter_opt2.v
-Synthesis Result
+
+
+
+
+
+## Day 4: Gate Level Simulation (GLS) and Synthesis-Simulation mismatch
+
+
 
