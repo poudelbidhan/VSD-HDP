@@ -1,4 +1,14 @@
 # VSD-Hardware Design Program
+
+# Table of Content 
+
+
+|Days | Content|
+|--------------|--------------------------------------------|
+|[Day 1](/README/Day.md)| Tool Installtion |
+|[Day 2](/README/Day.md) | Introduction to Verilog RTL design and Synthesis |
+
+
 ## Tool Installation 
 ### System Information
 1. OS: Ubuntu 22.04
