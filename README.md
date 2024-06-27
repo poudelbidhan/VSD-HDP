@@ -5,7 +5,7 @@
 
 |Days      |         Content|
 |----------------------------|---------------------------------------------------------------|
-|[Day 1](/README/Day0.md)| Tool Installtion |
+|[Day 1](/README/Day0.md)| Tool Installation |
 |[Day 2](/README/Day1.md) | Introduction to Verilog RTL design and Synthesis |
 |[Day 3](/README/Day2.md) | Introduction to Verilog RTL design and Synthesis |
 |[Day 4](/README/Day3.md) | Introduction to Verilog RTL design and Synthesis |
