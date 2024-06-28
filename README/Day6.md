@@ -38,8 +38,10 @@ Or, you can create a .sh file with all the commands inside it and run the script
     yosys
     script synthesis.sh
 
-  At the end, we should successfully get the synthesized file named bidhan_rv32i_synth.v
+  In the end, we should successfully get the synthesized file named bidhan_rv32i_synth.v
   
 
-  
+### Gate Level Simulation 
+
+
   
