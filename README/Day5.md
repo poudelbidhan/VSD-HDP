@@ -41,6 +41,21 @@ Again, we will run the same code using RISC-V compiler
        riscv64-unknown-elf-objdump -d sum1ton.o
        riscv64-unknown-elf-objdump -d sum1ton.o | less
        /main
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/40f27b33-a3d4-4924-9166-450659a3f26f)
 
+
+Now again we try the same with a different optimization technique ( Ofast optimization). 
+
+        riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o fast_sum1ton.o sum1ton.c
+        riscv64-unknown-elf-objdump -d fast_sum1ton.o
+        riscv64-unknown-elf-objdump -d fast_sum1ton.o | less
+        /main
+        
+
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/f6987056-ed2d-465f-8790-bd9b4c747fa9)
+
+
+
+From the above example we can observe that with -Ofast optimization, the instruction sets are significantly reduced. 
 
 
