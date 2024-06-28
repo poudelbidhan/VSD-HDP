@@ -23,4 +23,24 @@ Example run:
 
 ![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/bb5905c0-2361-47cc-86cf-3d26955340f5)
 
-   
+
+Again, we will run the same code using RISC-V compiler 
+
+1. Open the terminal and display our original code file in terminal
+
+       cat sum1ton.c
+
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/f389ad03-a1a1-436a-80a2-e8bce4fd079a)
+
+2. Compile the c code using RISC-V compiler
+
+       riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+
+3. On the new terminal tab, run the following code to display the assembly language equivalent of our c file.
+
+       riscv64-unknown-elf-objdump -d sum1ton.o
+       riscv64-unknown-elf-objdump -d sum1ton.o | less
+       /main
+
+
+
