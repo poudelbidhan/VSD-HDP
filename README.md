@@ -5,13 +5,13 @@
 
 |Days      |         Content|
 |----------------------------|---------------------------------------------------------------|
-|[Day 1](/README/Day0.md)| Tool Installation |
-|[Day 2](/README/Day1.md) | Introduction to Verilog RTL design and Synthesis |
-|[Day 3](/README/Day2.md) | Introduction to Verilog RTL design and Synthesis |
-|[Day 4](/README/Day3.md) | Introduction to Verilog RTL design and Synthesis |
-|[Day 5](/README/Day4.md) | Introduction to Verilog RTL design and Synthesis |
-|[Day 6](/README/Day5.md) | Introduction to Verilog RTL design and Synthesis |
-|[Day 7](/README/Day6.md) | Introduction to Verilog RTL design and Synthesis |
+|[Day 0](/README/Day0.md)| Tool Installation |
+|[Day 1](/README/Day1.md) | Introduction to Verilog RTL design and Synthesis |
+|[Day 2](/README/Day2.md) | Timing libs, Hierarchical vs. Flat Synthesis, Flip-Flop coding styles |
+|[Day 3](/README/Day3.md) | Combinational and Sequential Optimization |
+|[Day 4](/README/Day4.md) |Gate Level Simulation (GLS) and Synthesis-Simulation mismatch |
+|[Day 5](/README/Day5.md) | C code compilation using gcc and RISC-V compilers |
+|[Day 6](/README/Day6.md) | RISC_V Design Synthesis and Gate Level Simulation |
 
 
 
