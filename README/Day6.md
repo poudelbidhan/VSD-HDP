@@ -15,7 +15,8 @@ First, we copy our design verilog and testbench file to our working directory. I
 
 Simulation Output: 
 
-![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/c2481a0d-0cd0-4aff-b32e-f70585130799)
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/6a23ad4f-e77c-440f-a78a-96fd88c27db9)
+
 
 
 
@@ -33,7 +34,7 @@ You can do that either by running following commands one at a time.
     flatten
     write_verilog -noattr bidhan_rv32i_synth.v
 
-Or, you can create a .sh file with all the commands inside it and run the script once. 
+Or, you can create a ``` .sh ``` file with all the commands inside it and run the script once. 
 
     yosys
     script synthesis.sh
