@@ -1,4 +1,4 @@
-### C code compilation using gcc and RISC-V compilers. 
+## Day 5:  C code compilation using gcc and RISC-V compilers. 
 
 First, we will use leafpad code editor for writing the code and gcc compiler for the compilation. 
 
