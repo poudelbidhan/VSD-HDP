@@ -47,7 +47,6 @@ Or, you can create a ``` .sh ``` file with all the commands inside it and run th
 
 
 
- Both the pre-synthesis and post-synthesis simulation matches and we are good to go. 
  
 
   
