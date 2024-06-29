@@ -1,4 +1,4 @@
-# RISC_V Design Synthesis and Gate Level Simulation 
+## Day 6: RISC_V Design Synthesis and Gate Level Simulation 
 
 Here, we will do the synthesis and gate-level simulation of our RISC-V RV32I design file. 
 
@@ -46,6 +46,11 @@ Or, you can create a ``` .sh ``` file with all the commands inside it and run th
 
  We do the gate-level simulation to verify the logical correctness of the design after synthesizing the design. 
 
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/556fabaf-78ff-470a-b68b-861c222acd55)
+
+
+
+ Both the pre-synthesis and post-synthesis simulation matches and we are good to go. 
  
 
   
