@@ -44,7 +44,7 @@ Again, we will run the same code using RISC-V compiler
 ![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/40f27b33-a3d4-4924-9166-450659a3f26f)
 
 
-Now again we try the same with a different optimization technique ( Ofast optimization). 
+We try the same commands again with a different optimization technique ( Ofast optimization). 
 
         riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o fast_sum1ton.o sum1ton.c
         riscv64-unknown-elf-objdump -d fast_sum1ton.o
