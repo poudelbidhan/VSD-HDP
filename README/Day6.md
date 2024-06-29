@@ -45,7 +45,7 @@ Or, you can create a ``` .sh ``` file with all the commands inside it and run th
 
 ![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/556fabaf-78ff-470a-b68b-861c222acd55)
 
-
+Here we can see pre-synthesis and post-synthesis simulation result match and we are good to move forward.
 
  
 
