@@ -43,5 +43,8 @@ Or, you can create a .sh file with all the commands inside it and run the script
 
 ### Gate Level Simulation 
 
+ We do the gate-level simulation to verify the logical correctness of the design after synthesizing the design. 
+
+ 
 
   
