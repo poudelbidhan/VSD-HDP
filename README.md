@@ -12,6 +12,7 @@
 |[Day 4](/README/Day4.md) |Gate Level Simulation (GLS) and Synthesis-Simulation mismatch |
 |[Day 5](/README/Day5.md) | C code compilation using gcc and RISC-V compilers |
 |[Day 6](/README/Day6.md) | RISC_V Design Synthesis and Gate Level Simulation |
+| [Day 7 ](/README/Day7.md) | Introduction to STA | 
 
 
 
