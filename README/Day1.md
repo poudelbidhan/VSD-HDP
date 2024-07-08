@@ -1,5 +1,27 @@
-## Day 1: Introduction to Verilog RTL Design and Synthesis
-### Functional Simulation of RTL Design Using iverilog and rtkwave
+# Day 1
+
+## Introduction to Verilog RTL Design and Synthesis
+
+
+Verilog RTL (Register Transfer Level) design involves describing the digital logic of a circuit at a high level of abstraction using Verilog, a hardware description language (HDL).
+
+### 1. Writing Verilog RTL Code
+Tool: Text Editor or IDE (e.g., Visual Studio Code with Verilog extensions)
+
+Description: Write the Verilog code to describe the digital logic of the design. This code includes module definitions, wire/reg declarations, and procedural blocks (e.g., always, initial).
+   
+### 2. Simulation and Verification
+Tool: Icarus Verilog, GTKWave
+
+Description: Simulation: Use tools like Icarus Verilog to compile and simulate the Verilog code. This step involves creating testbenches that apply stimuli to the design and observe its behavior.
+
+Waveform Viewing: Use GTKWave to visualize the simulation results and verify the functionality of the design.
+
+
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/8c5bc414-7f6e-49f5-b6a7-90fbe11e5633)
+
+
+### Functional Simulation of RTL Design Using iVerilog & gtkWave
 
 1. Clone the GitHub repo with skywater130-based library files and example designs with corresponding test benches.
     ```
@@ -22,7 +44,31 @@
 ![Screenshot from 2024-06-14 06-41-57](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/bdfe72fa-81f3-40c0-a6e4-807e9dcbb577)
 
 
-### Logic Synthesis using Yosys
+
+
+
+## Logic Synthesis using Yosys
+
+Logic synthesis is a process in digital design where high-level descriptions of a circuit (usually written in Hardware Description Languages like Verilog or VHDL) are transformed into a gate-level representation. This gate-level netlist is composed of logic gates like AND, OR, NOT, flip-flops, etc., which can be directly implemented in physical hardware.
+
+Key Steps in Logic Synthesis
+### 1. Parsing and Elaboration:
+
+The HDL code is parsed to understand the design structure, hierarchy, and logic.
+Elaboration resolves all HDL constructs, instantiates modules, and creates a complete design hierarchy.
+
+### 2. Technology Mapping:
+
+The design is mapped to a specific technology library that defines the available logic gates and their characteristics (e.g., timing, power, area).
+
+### 3. Optimization:
+
+The synthesized design is optimized for various parameters like area, speed, and power. This includes logic minimization, retiming, and other transformations to improve performance and efficiency.
+
+### 4. Netlist Generation:
+
+The final output is a gate-level netlist, which is a textual description of the circuit in terms of logic gates and their interconnections.
+
 Here we will perform gate-level synthesis of our simulated example design using Yosys and Sky130 library file
 1. Invoke Yosys shell
    
