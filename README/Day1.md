@@ -69,6 +69,8 @@ The synthesized design is optimized for various parameters like area, speed, and
 
 The final output is a gate-level netlist, which is a textual description of the circuit in terms of logic gates and their interconnections.
 
+![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/0573991d-bee8-41fe-8288-8f207b5714d7)
+
 Here we will perform gate-level synthesis of our simulated example design using Yosys and Sky130 library file
 1. Invoke Yosys shell
    
