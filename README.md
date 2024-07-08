@@ -81,8 +81,8 @@ The ASIC (Application-Specific Integrated Circuit) design flow is a multi-step p
 
 ### 3. RTL Design:
 
-*Write the Register Transfer Level (RTL) code using hardware description languages (HDLs) like Verilog or VHDL.
-*Describe the logic and functionality of the ASIC at the register transfer level.
+* Write the Register Transfer Level (RTL) code using hardware description languages (HDLs) like Verilog or VHDL.
+* Describe the logic and functionality of the ASIC at the register transfer level.
 
 ### 4. Functional Verification:
 
