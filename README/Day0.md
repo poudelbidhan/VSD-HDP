@@ -46,3 +46,11 @@ gtkwave
 ```
 ![Screenshot from 2024-06-06 21-31-09](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/3591863c-a35f-4237-ba05-f542f9ca4217)
 
+
+### OpenSTA
+
+![Screenshot from 2024-07-12 11-31-14](https://github.com/user-attachments/assets/7c2b41c0-3f5f-40e3-829e-5e2da43b7ae0)
+
+
+
+
