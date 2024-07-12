@@ -49,6 +49,15 @@ gtkwave
 
 ### OpenSTA
 
+
+    git clone https://github.com/parallaxsw/OpenSTA.git
+    cd OpenSTA
+    mkdir build
+    cd build
+    cmake ..
+    make
+
+
 ![Screenshot from 2024-07-12 11-31-14](https://github.com/user-attachments/assets/7c2b41c0-3f5f-40e3-829e-5e2da43b7ae0)
 
 
