@@ -1,7 +1,9 @@
 ## Day 2: Timing libs, Hierarchical vs. Flat Synthesis, Flip-Flop coding styles
 
+### Timing Library
+
 ### Hierarchical vs. Flat Synthesis
-Here we observe how Yosys tool performs synthesis and generates the netlist for multi-modules with and without preserving the design hierarchy. 
+Here we observe how the Yosys tool performs synthesis and generates the netlist for multi-modules with and without preserving the design hierarchy. 
 
 1. Hierarchical Synthesis
 
