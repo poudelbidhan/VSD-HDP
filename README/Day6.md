@@ -37,14 +37,24 @@ Simulation Output:
 
 ### Synthesis 
 
-Here we do the synthesis of our design file with yosys. 
-You can do that either by running following commands one at a time. 
+Here we do the synthesis of our design file with Yosys. 
+You can do that either by running the following commands one at a time. 
 
-    read_liberty -lib /home/bidhan/project/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-    read_verilog bidhan_rv32i.v
-    synth -top rv32i
+    #read design
+    read -sv bidhan_rv32i.v
+    hierarchy -top rv32i
+    #the high-level stuff
+    proc; fsm; opt; memory; opt
+    #mapping to internal cell library
+    techmap; opt
+    #mapping flip-flops to mycells.lib
+    dfflibmap -liberty /home/bidhan/project/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+    #mapping logic to mycells.lib
     abc -liberty /home/bidhan/project/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+    #cleanup
+    clean
     write_verilog -noattr bidhan_rv32i_synth.v
+
 
 Or, you can create a ``` .sh ``` file with all the commands inside it and run the script once. 
 
