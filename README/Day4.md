@@ -3,6 +3,56 @@
 
 ## Day 4: Gate Level Simulation (GLS) and Synthesis-Simulation mismatch
 
+### Gate Level Simulation 
+Gate-level simulation is a process of simulating a digital circuit at the level of individual logic gates and their interconnections. It provides a detailed and accurate representation of the circuit's behavior, considering the actual gate delays and the interconnection delays. This type of simulation is performed after the synthesis process and is crucial for verifying the timing and functionality of the design before moving on to physical implementation
+
+![image](https://github.com/user-attachments/assets/c5b6b576-f547-4020-b6e0-84b0ff2ecd7b)
+
+
+### Synthesis - Simulation Mismatch 
+
+Synthesis-simulation mismatch refers to discrepancies between the behavior of a digital design during RTL simulation and its behavior after synthesis. This mismatch can cause functional errors that may not be caught until later stages of the design flow, leading to costly debugging and potential redesigns. Understanding the common causes and strategies to avoid synthesis-simulation mismatches is critical for reliable digital design.
+
+Common Causes of Synthesis-Simulation Mismatch
+
+1. Uninitialized Variables:
+
+In simulation, uninitialized variables typically take on an unknown value (X). During synthesis, these variables may be optimized away or set to a default value, leading to different behaviors.
+
+2. Timing and Delays:
+
+RTL simulation may use zero-delay or small delays for certain operations, while the synthesized netlist reflects actual gate delays. This discrepancy can cause timing-related mismatches.
+
+3. Blocking vs. Non-blocking Assignments:
+
+Improper use of blocking (=) and non-blocking (<=) assignments in sequential logic can lead to differences in behavior. Non-blocking assignments should be used for sequential logic to avoid race conditions.
+
+4. Asynchronous vs. Synchronous Resets:
+
+Differences in handling asynchronous and synchronous resets can cause mismatches. Simulation might handle reset conditions differently compared to the synthesized hardware.
+
+5. Latch Inference:
+
+Unintentionally inferring latches in the RTL code can lead to mismatches. Synthesis tools might optimize or interpret these latches differently than how they behave in simulation.
+
+6. Sensitivity List Issues:
+
+Incorrect or incomplete sensitivity lists in always blocks can cause differences in behavior between simulation and synthesis.
+
+7. Vendor-specific Primitives and Constructs:
+
+Using vendor-specific primitives or constructs that are not supported or behave differently in the synthesis tool compared to the simulator.
+
+8. Constant Propagation and Optimization:
+
+The synthesis tool may optimize certain constants and propagate them, leading to different behavior than what was simulated.
+
+9. Tool-specific Interpretations:
+
+Different tools (simulators and synthesizers) may interpret HDL constructs slightly differently, leading to mismatches.
+
+### labs 
+
 lab1: ternary_operator_mux.v 
 
 Simulation Result
