@@ -10,6 +10,10 @@ First, we copy our design verilog and testbench file to our working directory. I
  ### Functional Simulation 
 
  Functional Simulation: 
+file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2011-00-16.png
+![image](https://github.com/user-attachments/assets/ef33d361-c5a1-43cf-9cfb-9bd553fe67c9)
+
+
  
  1. file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2010-37-41.png![image](https://github.com/user-attachments/assets/1f7253fb-52a6-48fe-b864-d9686d6cc3d5)
 
@@ -26,7 +30,7 @@ First, we copy our design verilog and testbench file to our working directory. I
 
 Simulation Output: 
 
-![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/6a23ad4f-e77c-440f-a78a-96fd88c27db9)
+
 
 
 
@@ -65,6 +69,9 @@ Or, you can create a ``` .sh ``` file with all the commands inside it and run th
  We do the gate-level simulation to verify the logical correctness of the design after synthesizing the design. 
 
 file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2010-39-06.png![image](https://github.com/user-attachments/assets/f06c6c0b-a791-4345-95c2-5fa74ec42cc1)
+
+
+file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2011-00-16.png![image](https://github.com/user-attachments/assets/2e4f130e-2a5f-4b43-9def-eea35d3d7d26)
 
 
 Here we can see pre-synthesis and post-synthesis simulation result match and we are good to move forward.
