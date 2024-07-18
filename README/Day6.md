@@ -74,6 +74,11 @@ file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2010-39-
 file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2011-00-16.png![image](https://github.com/user-attachments/assets/2e4f130e-2a5f-4b43-9def-eea35d3d7d26)
 
 
+
+new: 
+file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2011-49-55.png![image](https://github.com/user-attachments/assets/e6877c3a-e676-448d-abc5-5bcd88627764)
+
+
 Here we can see pre-synthesis and post-synthesis simulation result match and we are good to move forward.
 
  
