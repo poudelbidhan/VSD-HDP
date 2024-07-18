@@ -8,22 +8,7 @@ First, we copy our design verilog and testbench file to our working directory. I
 
 
  ### Functional Simulation 
-
- | S. No. | Operation       | Hardcoded ISA  |
-|--------|-----------------|----------------|
-| 1      | ADD R6, R2, R1  | 32'h02208300   |
-| 2      | SUB R7, R1, R2  | 32'h02209380   |
-| 3      | AND R8, R1, R3  | 32'h0230a400   |
-| 4      | OR R9, R2, R5   | 32'h02513480   |
-| 5      | XOR R10, R1, R4 | 32'h0240c500   |
-| 6      | SLT R1, R2, R4  | 32'h02415580   |
-| 7      | ADDI R12, R4, 5 | 32'h00520600   |
-| 8      | BEQ R0, R0, 15  | 32'h00f00002   |
-| 9      | SW R3, R1, 2    | 32'h00209181   |
-| 10     | LW R13, R1, 2   | 32'h00208681   |
-| 11     | SRL R16, R14, R2| 32'h00271803   |
-| 12     | SLL R15, R1, R2 | 32'h00208783   |
-
+ 
      iverilog -o bidhan_rv32i bidhan_rv32i.v bidhan_rv32i_tb.v
      ./bidhan_rv32i 
      gtkwave rv32_i.vcd 
