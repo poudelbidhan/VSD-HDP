@@ -13,6 +13,8 @@ First, we copy our design verilog and testbench file to our working directory. I
 file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2011-00-16.png
 ![image](https://github.com/user-attachments/assets/ef33d361-c5a1-43cf-9cfb-9bd553fe67c9)
 
+top level 
+file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2015-10-46.png![image](https://github.com/user-attachments/assets/b41431e7-e33c-4dd4-a5bb-77a72ccc59b0)
 
  
  1. file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2010-37-41.png![image](https://github.com/user-attachments/assets/1f7253fb-52a6-48fe-b864-d9686d6cc3d5)
