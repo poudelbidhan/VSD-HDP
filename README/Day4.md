@@ -53,6 +53,10 @@ Different tools (simulators and synthesizers) may interpret HDL constructs sligh
 
 ### labs 
 
+    iverilog <Path to primitives.v file > <Path to sky130_fd_sc_hd__tt_025C_1v80.lib> <Name of netlist:ternary_operator_mux_net.v> <Name of testbench: tb_ternary_operator_mux.v>
+    ./a.out
+    gtkwave tb_ternary_operator_mux.vdc
+
 lab1: ternary_operator_mux.v 
 
 Simulation Result
