@@ -8,6 +8,17 @@ First, we copy our design verilog and testbench file to our working directory. I
 
 
  ### Functional Simulation 
+
+ Functional Simulation: 
+ 
+ 1. file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2010-37-41.png![image](https://github.com/user-attachments/assets/1f7253fb-52a6-48fe-b864-d9686d6cc3d5)
+
+
+
+
+
+ 2. 
+
  
      iverilog -o bidhan_rv32i bidhan_rv32i.v bidhan_rv32i_tb.v
      ./bidhan_rv32i 
@@ -53,7 +64,8 @@ Or, you can create a ``` .sh ``` file with all the commands inside it and run th
 
  We do the gate-level simulation to verify the logical correctness of the design after synthesizing the design. 
 
-![image](https://github.com/poudelbidhan/VSD-HDP/assets/69006235/556fabaf-78ff-470a-b68b-861c222acd55)
+file:///home/bidhan/Pictures/Screenshots/Screenshot%20from%202024-07-18%2010-39-06.png![image](https://github.com/user-attachments/assets/f06c6c0b-a791-4345-95c2-5fa74ec42cc1)
+
 
 Here we can see pre-synthesis and post-synthesis simulation result match and we are good to move forward.
 
