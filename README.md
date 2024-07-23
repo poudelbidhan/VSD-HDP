@@ -13,7 +13,7 @@
 |[Day 5](/README/Day5.md) | C code compilation using gcc and RISC-V compilers |
 |[Day 6](/README/Day6.md) | RISC_V Design Synthesis and Gate Level Simulation |
 | [Day 7 ](/README/Day7.md) | [Introduction to STA](/README/Day7.md) <br>[STA Results](/README/Day7.2.md)| 
-| [Day 8 ](/README/Day8.md) | Advances SDC and Synthesis |
+| [Day 8 ](/README/Day8.md) | Advanced SDC and Synthesis |
 
 
 
