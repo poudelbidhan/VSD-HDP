@@ -14,6 +14,9 @@
 |[Day 6](/README/Day6.md) | RISC_V Design Synthesis and Gate Level Simulation |
 | [Day 7 ](/README/Day7.md) | [Introduction to STA](/README/Day7.md) <br>[STA Results](/README/Day7.2.md)| 
 | [Day 8 ](/README/Day8.md) | Advanced SDC and Synthesis |
+| [Day 9](/README/Day9.md) | PVT Corner Analysis (Post-Synthesis Timing) of the RISC-V CPU Design |
+
+
 
 
 
