@@ -15,3 +15,11 @@
 
 ![image](https://github.com/user-attachments/assets/bbd3b00c-3883-4f5f-8eab-b6dc680c9287)
 
+
+### Synthesis Statistics 
+
+#### Flop Ratio
+
+            Flop Ratio = (Total no. of Flops/ Total no. of cells in the design)
+                       = 1613/ 14876
+                       = 10.843%
