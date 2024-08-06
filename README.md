@@ -15,7 +15,10 @@
 | [Day 7 ](/README/Day7.md) | [Introduction to STA](/README/Day7.md) <br>[STA Results](/README/Day7.2.md)| 
 | [Day 8 ](/README/Day8.md) | Advanced SDC and Synthesis |
 | [Day 9](/README/Day9.md) | PVT Corner Analysis (Post-Synthesis Timing) of the RISC-V CPU Design |
-| [Day 10] (/README/Day10.md) | Inception of open-source EDA, OpenLANE and Sky130 PDK |
+| [Day 10](/README/Day_10.md) | Familiarization with OpenLANE flow | 
+| [Day_11](/README/Day_11.md) | Floorplanning |
+| [Day_12](README/Day_12.md ) | Placement |
+| [Day_13] (README/Day_13.md) |  Library Cell design using Magic and Characterization using Ngspice |
 
 
 
