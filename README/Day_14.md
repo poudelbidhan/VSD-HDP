@@ -40,3 +40,4 @@ echo $::env(SYNTH_DRIVING_CELL)
 
 run_synthesis
 
+![image](https://github.com/user-attachments/assets/d6c6d997-efdc-46e8-ae3f-63762da4a75f)
