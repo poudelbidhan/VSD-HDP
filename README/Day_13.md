@@ -55,3 +55,9 @@ We will create a SPICE deck for the inverter model. SPICE deck will have the fol
 
 plot
 ![image](https://github.com/user-attachments/assets/05df209c-5c74-44b7-8335-f7d1e54bd2e3)
+
+
+
+### LEF Generation of a Standard Cell 
+
+
