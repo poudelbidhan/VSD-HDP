@@ -60,4 +60,10 @@ plot
 
 ### LEF Generation of a Standard Cell 
 
+To save the lef file, first open the Inverter layout in magic . 
 
+* Command to create and extracxt the lef file.
+    
+        lef write  <Name_of_the_lef_file >
+![image](https://github.com/user-attachments/assets/5164e5d3-442a-4bc3-bccc-0bf10c20d444)
+  
