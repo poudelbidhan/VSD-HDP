@@ -41,3 +41,20 @@ echo $::env(SYNTH_DRIVING_CELL)
 run_synthesis
 
 ![image](https://github.com/user-attachments/assets/d6c6d997-efdc-46e8-ae3f-63762da4a75f)
+
+
+
+
+FloorPlanning 
+![image](https://github.com/user-attachments/assets/cfbbd61c-a58c-4f87-82d2-d11407a13d5e)
+
+
+Placement 
+
+![image](https://github.com/user-attachments/assets/52b54fc0-8ecf-469b-8b58-5b2a84f11a26)
+
+
+
+
+
+
