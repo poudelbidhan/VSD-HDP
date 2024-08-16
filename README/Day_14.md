@@ -20,6 +20,10 @@ Synthesis :
 ![image](https://github.com/user-attachments/assets/076cbb8f-24fd-4c48-adfc-3e19b6cb6aa5)
 
 
+![image](https://github.com/user-attachments/assets/76806820-1cc1-42da-b7f8-f0d1005bdade)
+
+
+
 again we optimize the delay and area using following env variables: 
 
 
