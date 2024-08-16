@@ -26,5 +26,17 @@ Synthesis :
 
 again we optimize the delay and area using following env variables: 
 
+prep -design picorv32a -tag 05-08_16-23 -overwrite
 
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+add_lefs -src $lefs
+
+echo $::env(SYNTH_STRATEGY)
+set ::env(SYNTH_STRATEGY) "DELAY 3"
+echo $::env(SYNTH_BUFFERING)
+echo $::env(SYNTH_SIZING)
+set ::env(SYNTH_SIZING) 1
+echo $::env(SYNTH_DRIVING_CELL)
+
+run_synthesis
 
