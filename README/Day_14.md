@@ -1,3 +1,44 @@
 
-## 
+## Integrating VSD Inverter Cell into the Openlane Flow 
 
+VERSION 5.7;
+NOWIREEXTENSIONATPIN ON;
+DIVIDERCHAR "/";
+BUSBITCHARS "[]";
+MACRO sky130_vsdinv
+  CLASS CORE;
+  FOREIGN sky130_vsdinv;
+  ORIGIN 0.000 0.000;
+  SIZE 1.380 BY 2.720;
+  SITE unithd;
+  PIN A
+    DIRECTION INPUT;
+    USE SIGNAL;
+    ANTENNAGATEAREA 0.165600;
+    PORT
+      LAYER Li1;
+      RECT 0.060 1.180 0.510 1.690;
+    END
+  END A
+  PIN Y
+    DIRECTION OUTPUT;
+    USE SIGNAL;
+    ANTENNADIFFAREA 0.287800;
+    PORT
+      LAYER li1;
+      RECT 0.760 1.960 1.100 2.330;
+      RECT 0.880 1.690 1.050 1.960;
+      RECT 0.880 1.180 1.330 1.690;
+      RECT 0.880 0.760 1.050 1.180;
+      RECT 0.780 0.410 1.130 0.760;
+    END
+  END Y
+  PIN VPWR
+    DIRECTION INOUT;
+    USE POWER;
+    PORT
+      LAYER nwell;
+      RECT 0.000 0.000 1.380 2.720;
+    END
+  END VPWR
+END sky130_vsdinv
