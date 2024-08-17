@@ -18,7 +18,7 @@
 | [Day 10](/README/Day_10.md) | Familiarization with OpenLANE flow | 
 | [Day_11](/README/Day_11.md) | Floorplanning |
 | [Day_12](README/Day_12.md ) | Placement |
-| [Day_13] (README/Day_13.md) |  Library Cell design using Magic and Characterization using Ngspice |
+| [Day_13](README/Day_13.md) |  Library Cell design using Magic and Characterization using Ngspice |
 
 
 
