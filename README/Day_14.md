@@ -91,4 +91,13 @@ The placement.def file displayed on magic:
 ![225767544-e2429f9c-7b62-4904-bc58-92876094389e](https://github.com/user-attachments/assets/c6b359b6-246d-4992-9b0d-5dcc10637168)
 
 
+### Timing Analysis 
+
+Post-synthesis, we can observe TNS and WNS.
+If there is a TNS and WNS we have to reduce by using different techniques. 
+
+![image](https://github.com/user-attachments/assets/5ea3375d-7e61-4bb0-ba63-20a177911e24)
+
+
+Now create a config file to run OpenSTA for the design. 
 
