@@ -6,7 +6,7 @@
 |Days      |         Content|
 |------------------------------------|---------------------------------------------------------------|
 |[Day 0](/README/Day0.md)| Work Environment Step up  & Tool Installation                                    |
-|[Day 1](/README/Day1.md) | Introduction to Verilog RTL design and Synthesis |
+|[DAy 1](/README/Day1.md) | Introduction to Verilog RTL design and Synthesis |
 |[Day 2](/README/Day2.md) | Timing libs, Hierarchical vs. Flat Synthesis, Flip-Flop coding styles |
 |[Day 3](/README/Day3.md) | Combinational and Sequential Optimization |
 |[Day 4](/README/Day4.md) |Gate Level Simulation (GLS) and Synthesis-Simulation mismatch |
