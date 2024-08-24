@@ -57,4 +57,39 @@ The tool will create run directoy when we run the openlane.
 ![image](https://github.com/user-attachments/assets/508752c8-7632-4521-a546-a842f325442d)
 
 
+## Signoff Steps 
   
+### DRC 
+If DRC violations are found; OpenLane will generate an error reporting the total count of violations found by each Step.
+
+To view DRC errors graphically, you may open the layout as follows:
+
+  openlane --last-run --flow openinklayout ~/my_designs/risc_v/config.json
+
+and then select the klayout.drc.xml file run directory and you can see the drc violations if any on the layout
+
+![image](https://github.com/user-attachments/assets/7a8ea27a-f70c-4c43-ab39-6f930b8e82ff)
+
+
+
+### LVS 
+LVS stands for Layout Versus Schematic. It compares the layout GDSII or DEF/LEF, with the schematic which is usually in Verilog, ensuring that connectivity in both views matches. Sometimes, user configuration or even the tools have errors and such a check is important to catch them.
+
+### Anteena Check 
+
+![image](https://github.com/user-attachments/assets/17aa0299-5e8d-479f-878a-49a099c714d3)
+
+
+
+### Static Timing Analysis 
+
+
+### Post-PNR timing summary Report 
+
+![image](https://github.com/user-attachments/assets/f4cc4ede-066b-4338-87d1-a21e6151aee7)
+
+/home/bidhan/my_designs/risc_v/runs/RUN_2024-08-23_18-44-26/52-openroad-stapostpnr
+
+
+
+
