@@ -1,7 +1,7 @@
 
 # RTl to GDS in OpenLane2 flow 
 
-First I have a Verilog design file for the PicoRV32 Risc_v based processor. I want to implement this rtl and tape out my design in OpenLane2 flow. 
+First I have a Verilog design file for the rv32i Risc_v based processor. I want to implement this rtl and tape out my design in OpenLane2 flow. 
 
 
 
