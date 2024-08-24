@@ -88,8 +88,10 @@ LVS stands for Layout Versus Schematic. It compares the layout GDSII or DEF/LEF,
 
 ![image](https://github.com/user-attachments/assets/f4cc4ede-066b-4338-87d1-a21e6151aee7)
 
-/home/bidhan/my_designs/risc_v/runs/RUN_2024-08-23_18-44-26/52-openroad-stapostpnr
+![image](https://github.com/user-attachments/assets/69f6ee4e-dc47-419b-82d9-6ee0c465cd4d)
 
+
+![image](https://github.com/user-attachments/assets/b5f8a523-3b32-4ebc-a5f1-702af0f4e109)
 
 
 
