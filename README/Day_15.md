@@ -26,5 +26,35 @@ After successfully installing openlane2, we must create our design directory, pl
 
 * Create `design` dir and under this directory we place our `.v` design file.
 * I created a new dir `design` under this `riscv` and under this `src` where I copied my verilog design file.
-  
+
 ![image](https://github.com/user-attachments/assets/380fd66e-d2f6-4cea-9755-9366c113a376)
+* Created a `.sdc` file and placed in the same directory.
+
+### Step 3: Running the design 
+* After creating all the needed source files and sdc files.  Run the following Command.
+
+
+     openlane ~/my_designs/risc_v/config.json
+
+
+  * OpenLane2 will start the flow. It will take some time depending upon the complexity of the design and design constraints we havfe set.
+  * Once the flow is complete, you can see this. 
+![image](https://github.com/user-attachments/assets/abd46a0e-9810-4630-aeeb-82f835da9f1a)
+
+
+
+
+### Checking the Results 
+
+###  Viewing Layout on Klayout 
+
+![image](https://github.com/user-attachments/assets/dc3470ca-5422-4930-b970-79dd5c24ec5e)
+
+### Run Directory 
+The tool will create run directoy when we run the openlane. 
+![image](https://github.com/user-attachments/assets/b780f597-fe37-4cbf-8ecb-9b98a7d2313a)
+
+![image](https://github.com/user-attachments/assets/508752c8-7632-4521-a546-a842f325442d)
+
+
+  
